@@ -2,6 +2,11 @@
 
 A Simple Example Spring Boot Integration DB
 
+Open your browser
+
+`http://localhost:8080/students`
+
+
 ```
 // 20170427072808
 // http://localhost:8080/students
