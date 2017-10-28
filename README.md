@@ -1,8 +1,7 @@
 # Spring Boot JDBC
 
 
-[[![Build Status](https://travis-ci.org/hendisantika/spring-boot-db-integration.svg?branch=master)](https://travis-ci.org/hendisantika/spring-boot-db-integration)](https://travis-ci.org/hendisantika/spring-boot-db-integration)
-[[![Coverage Status](https://coveralls.io/repos/github/hendisantika/spring-boot-db-integration/badge.svg?branch=master)](https://coveralls.io/github/hendisantika/spring-boot-db-integration?branch=master)](https://coveralls.io/github/hendisantika/spring-boot-db-integration?branch=master)
+![Build Status](https://travis-ci.org/hendisantika/spring-boot-db-integration.svg?branch=master)](https://travis-ci.org/hendisantika/spring-boot-db-integration)](https://travis-ci.org/hendisantika/spring-boot-db-integration)
 
 
 A Simple Example Spring Boot Integration DB
