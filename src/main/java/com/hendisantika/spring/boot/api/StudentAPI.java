@@ -11,12 +11,12 @@ import java.util.List;
 @RestController
 public class StudentAPI {
 
-	@Autowired
-	private StudentRepository studentRepository;
+    @Autowired
+    private StudentRepository studentRepository;
 
-	@RequestMapping("/students")
-	public List<Student> searchStudent() {
-		List<Student> students = studentRepository.findAll();
-		return students;
-	}
+    @RequestMapping("/students")
+    public List<Student> searchStudent() {
+        List<Student> students = studentRepository.findAll();
+        return students;
+    }
 }
