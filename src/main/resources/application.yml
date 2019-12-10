@@ -9,8 +9,8 @@ spring.jpa:
   show-sql: true
 
 spring.datasource:
-  driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://localhost:3306/myappdb?autoReconnect=true
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/myappdb?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
   username: root
   password: root
 management:
@@ -21,6 +21,6 @@ management:
 spring:
   profiles: qa
 spring.datasource:
-  url: jdbc:mysql://qa.myapp.com:3306/myappdb?autoReconnect=true
+  url: jdbc:mysql://qa.myapp.com:3306/myappdb?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
   username: qauser
   password: qapassword
